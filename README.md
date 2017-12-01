@@ -6,7 +6,7 @@ I created this simple tool to automatically update DNS entries for domains hoste
 
 
 ## How to install it
-Download or clone this project. Rename `.env.example` file to `.env`. Make sure you set the `LINODE_PAT` to your Linode personal access token.
+Download or clone this project. Rename `.env.example` file to `.env`. Make sure you set the `LINODE_PAT` to your Linode personal access token. Don't forget to run `composer install`.
 
 
 ## How to obtain a Personal Access Token
