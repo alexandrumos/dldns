@@ -2,7 +2,7 @@ DLDNS - Dinamic Linode DNS
 ======
 
 ## About
-I created this simple tool to automatically update DNS entries for domains hosted at Linode. Uses [Linode API v4](https://developers.linode.com/v4/introduction) to update domain records to a specified target.
+I created this simple tool to automatically update DNS entries for domains hosted at Linode. Uses [Linode API v4](https://developers.linode.com/v4/introduction) to update domain records to a specified target. It's used in combination with `cron` to update IPs after they change.
 
 
 ## How to install it
