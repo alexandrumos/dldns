@@ -104,7 +104,7 @@ class LinodeApiClient {
     */
     private function request($uri, $method, $data = [])
     {
-        $method === strtolower(trim($method));
+        $method = strtolower(trim($method));
         
         if ($method === 'get') {
             // performing a GET request which requires pagination handling
